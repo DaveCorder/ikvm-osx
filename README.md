@@ -59,6 +59,8 @@ Pass the hostname/IP address as the first parameter and your IPMI username as th
 
 ## Virtual Console
 
+This may complain about not being able to load a native library. That's ok, but keyboard integration will be a little wonky at times. The pop-up alert references a System Preferences option that's no longer present in High Sierra. If anyone finds a workaround for this, please let me know.
+
 ```
 ./start-virtual-console.sh your-ipmi-IP-address username
 ```
