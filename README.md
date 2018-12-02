@@ -49,9 +49,8 @@ unzip -d avctVMMac64 avctVMMac64.jar
 
 ```
 mkdir lib
-cd lib
-cp ../avctKVMIOMac64/libavctKVMIO.jnilib .
-cp ../avctVMMac64/libavmMac.jnilib .
+cp avctKVMIOMac64/libavctKVMIO.jnilib ./lib/
+cp avctVMMac64/libavmMac.jnilib ./lib/
 ```
 
 # Run the appropriate script
